@@ -4,10 +4,6 @@
   font-family: "JetBrains Mono", monospace;
 }
 
-a {
-  all: unset;
-}
-
 @theme {
   --color-background-primary: #0A0A0A;
   --color-line-primary: #222222;
