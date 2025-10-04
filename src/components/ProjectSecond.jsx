@@ -23,7 +23,7 @@ export default function ProjectSecond() {
     <div className="mt-[25vh] text-white m-auto">
       <h1 className="text-4xl text-center">Projetos</h1>
 
-      <div className="mt-35 flex flex-wrap justify-center gap-4">
+      <div className="mt-35 flex flex-wrap justify-center gap-4 sm:flex-row sm:items-start flex-col items-center">
          {projects.map((item) => {
           return (
             <ProjectItem

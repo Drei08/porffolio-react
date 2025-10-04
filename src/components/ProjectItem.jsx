@@ -12,7 +12,7 @@ export default function ProjectItem({
         <a
           href={html_url}
           target="_blank"
-          className="border-line-primary border-1 p-4 bg-background-primary w-[30vw] rounded-2xl max-w-[300px]">
+          className="border-line-primary border-1 p-4 bg-background-primary w-[50vw] rounded max-w-[300px] hover:shadow-neon transition-shadow duration-200">
           <h2>{name}</h2>
           <hr className="h-px border-line-primary" />
           <p className="text-gray-500 mt-2">{description}</p>
