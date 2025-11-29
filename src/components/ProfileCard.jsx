@@ -5,7 +5,7 @@ export default function ProfileCard() {
     <div className="border border-line-primary bg-background-primary text-white w-[55vw] min-w-[300px] max-w-[500px] m-auto mt-10 p-16 rounded-2xl hover:shadow-neon transition-shadow duration-200">
       <h1 className='text-4xl font-bold text-center'>/Andrei Lucas</h1>
       <h2 className='mt-4 text-center'>
-        Brasileiro, Dev-Junior, HTML, CSS, JAVASCRIPT, REACT, JAVA, MongoDB, MySQL, PostgreSQL
+        Dev-Junior, Html, CSS, NodeJs, JavaScript, React, Java, MongoDB, MySQL, PostgreSQL
       </h2>
       <div className='flex justify-between mt-8'>
         <a 
@@ -14,7 +14,8 @@ export default function ProfileCard() {
         Github
         </a>
         <a 
-          href="https://www.linkedin.com/in/andrei-alves-26175338b/" 
+          href="https://www.linkedin.com/in/andrei-alves-26175338b"
+           
           target="_blank">
         Linkedin
         </a>
